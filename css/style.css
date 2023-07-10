@@ -640,6 +640,8 @@ ul.search li a:hover {
 
 .project_img figure img {
      width: 100%;
+     opacity: 0.4;
+
 }
 
 .project_text {
@@ -681,7 +683,7 @@ ul.search li a:hover {
 
 .project_text h3 {
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #1b1a1a;
      text-align: left;
      display: block;
      font-size: 28px;
@@ -844,9 +846,14 @@ ul.search li a:hover {
 .social_icon_main {
      background-color: #006db8;
      border-radius: 5px;
-     padding: 20px;
-}
+     padding: 15px;
+     margin: 5px;
+     cursor: pointer;
 
+}
+.social_icon_main:hover{
+     background-color:#9eaf3d;
+}
 .social_icon_main h4 {
      color: #fff;
      font-size: 20px;
@@ -1295,7 +1302,6 @@ ul.insta li {
     position: relative;
 }
 .bin1{
-  
      z-index: -4;
     position: relative;
 }
@@ -1304,6 +1310,14 @@ ul.insta li {
 }
 #row{
      justify-content: space-evenly;
+}
+.truck_img2{
+     width: 244px;
+     height: 147px;
+     position: relative;
+     position: relative;
+     text-align: right;
+
 }
 
 /* Safari 4.0 - 8.0 */
