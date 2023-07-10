@@ -417,6 +417,9 @@ ul.search li a:hover {
 .build_box {
      text-align: left;
      padding-top: 20%;
+     @media screen and (max-width: 500px) {
+          padding-top: 50%;
+        }
 }
 
 .banner_po {
