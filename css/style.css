@@ -836,6 +836,8 @@ ul.search li a:hover {
 
 .staff {
      text-align: center;
+     font-weight: 600;
+
 }
 
 .man {
@@ -894,7 +896,24 @@ ul.social_icon_staff li a:hover {
      margin-top: 60px;
 }
 
+#eprsection{
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     display: flex;
+}
 
+#eprdiv{
+max-width: 100%;
+margin-top: 2rem;
+word-break: break-all;
+font-size: 17px;
+
+}
+#eprheading:hover{
+background-color: #006db8!important;
+cursor:auto;
+}
 /** end staff section **/
 
 
@@ -1143,6 +1162,11 @@ ul.social_icon_staff li a:hover {
 .logo_bottom {
      float: left;
      padding-bottom: 24px;
+     font-size: 30px;
+     line-height: 25px;
+     color: #fff!important;
+     font-weight: bold;
+     text-transform: uppercase;
 }
 
 ul.link_menu li {
