@@ -493,7 +493,7 @@ ul.search li a:hover {
 /** end banner section **/
 
 .titlepage {
-     text-align: center;
+     text-align: justify;
      padding-bottom: 40px;
 
 }
@@ -512,6 +512,7 @@ ul.search li a:hover {
      color: #0a0a0a;
      padding-top: 30px;
      display: block;
+     text-align: justify;
 }
 
 .d_flex {
@@ -602,6 +603,8 @@ ul.search li a:hover {
      font-family: 'Raleway', sans-serif;
      padding-bottom: 60px;
      padding-top: 40px;
+     text-align: justify;
+
 }
 
 .about_img {
@@ -674,7 +677,7 @@ ul.search li a:hover {
 .project_text:hover {
      cursor: pointer;
      background-color: #fffffff2;
-     height: 303px;
+     height: 403px;
      transition: ease-in all 0.5s;
 }
 
@@ -698,7 +701,7 @@ ul.search li a:hover {
 .project_text p {
      color: #1b1a1a;
      font-size: 17px;
-     text-align: left;
+     text-align: justify;
      line-height: 28px;
      font-family: 'Raleway', sans-serif;
      font-weight: normal;
@@ -756,7 +759,7 @@ ul.search li a:hover {
 }
 
 .choose .titlepage {
-     text-align: left;
+     text-align: justify;
 }
 
 .choose .titlepage h2 {
@@ -846,6 +849,7 @@ ul.search li a:hover {
      margin: 0 25px;
      padding-top: 50px !important;
      padding: 0px 15px;
+     text-align: justify;
 }
 
 .social_icon_main {
@@ -925,7 +929,8 @@ cursor:auto;
 }
 
 .contact .titlepage {
-     text-align: left;
+     text-align: justify;
+
 }
 
 .main_form {
