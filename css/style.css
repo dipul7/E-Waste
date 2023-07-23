@@ -943,6 +943,11 @@ cursor:auto;
 .grid{
      display: grid;
      grid-template-columns: 1fr 1fr;
+     @media screen and (max-width: 500px) {
+          display: flex;
+          flex-direction: column;
+
+        }
 }
 .formheading{
      display: flex;
