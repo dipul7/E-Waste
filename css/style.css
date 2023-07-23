@@ -940,6 +940,16 @@ cursor:auto;
      text-align: center;
 
 }
+.grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.formheading{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
 
 .main_form .contactus {
      border: #fff solid 1px;
