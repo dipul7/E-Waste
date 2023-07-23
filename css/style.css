@@ -937,6 +937,8 @@ cursor:auto;
      padding: 40px 80px;
      background: #fff;
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.15);
+     text-align: center;
+
 }
 
 .main_form .contactus {
@@ -988,6 +990,7 @@ cursor:auto;
 #request *::placeholder {
      color: #dadada;
      opacity: 1;
+
 }
 
 .padding_right0 {
